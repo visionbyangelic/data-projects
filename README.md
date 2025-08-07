@@ -6,7 +6,7 @@ A focused collection of real-world SQL case studies built using Microsoft T-SQL.
 
 ## 📂 Project Index
 
-### 👩🏽‍💼 TSQL Career Tracker  
+### 👩🏽‍💼 Career Tracker  
 🔗 [View Repo](https://github.com/visionbyangelic/careertracker)  
 Tracks job applications, interview stages, companies, and outcomes using relational database design and T-SQL queries.
 
@@ -14,7 +14,7 @@ Tracks job applications, interview stages, companies, and outcomes using relatio
 
 ### 🏥 Hospital Database  
 🔗 [View Repo](https://github.com/visionbyangelic/hospital-database-project)  
-Models a healthcare system’s structure with patient, doctor, and treatment data — includes stored procedures, joins, and nested queries.
+Models a healthcare system’s structure with patient, doctor, and treatment data and includes stored procedures, joins, and nested queries.
 
 ---
 
