@@ -1,8 +1,11 @@
-# 🌍 Renewable Energy vs. GDP Per Capita: A Correlation Analysis
-![-](header.png)
+<div align="center">
+  <img src="images/header.png" alt="Header Image" width="100%" />
+  <h1>🌍 Renewable Energy vs. GDP Per Capita</h1>
+  <h3>A Correlation Analysis of Wealth & Sustainability</h3>
+</div>
 
 > **Hypothesis:** Do wealthier nations use more renewable energy, or do poorer nations rely on it more?
->
+> <br>
 > 🔗 **[Read the Full Article on Hashnode](https://nerdyalgorithm.hashnode.dev/why-poorer-countries-use-more-renewable-energy-a-data-analysis-case-study-in-solving-messy-data)**
 
 ---
@@ -14,8 +17,8 @@ Using data from the World Bank, I cleaned, merged, and analyzed datasets to dete
 
 ## 🛠️ Tech Stack
 * **Python:** Data manipulation and analysis.
-* **Pandas:** Cleaning 70+ columns of raw World Bank data and handling missing values.
-* **SciPy (`spearmanr`):** Calculating statistical correlation and p-values.
+* **Pandas:** Cleaning 70+ columns of raw World Bank data.
+* **SciPy (`spearmanr`):** Calculating statistical correlation.
 * **Matplotlib:** Visualizing trends via scatter plots and bar charts.
 
 ---
@@ -23,18 +26,21 @@ Using data from the World Bank, I cleaned, merged, and analyzed datasets to dete
 ## 🔍 Key Findings
 
 ### 1. The Correlation
-I calculated a Spearman correlation coefficient of **-0.5719** with a p-value < 0.05.
+I calculated a Spearman correlation coefficient of **-0.5719** ($p < 0.05$).
 * **Result:** A statistically significant, moderate **negative** correlation.
 * **Meaning:** As a country's wealth increases, its percentage of renewable energy use generally *decreases*.
 
 ### 2. Visual Analysis (The "Why")
 The scatter plot initially showed a confusing cluster. However, segmenting by **Income Group** revealed the truth.
 
-**The Scatter Plot (The Trend):**
-![Scatter Plot](images/scatter_plot.png)
+<div align="center">
+  <img src="images/scatter_plot.png" width="45%" />
+  <img src="images/bar_chart.png" width="45%" />
+  <br>
+  <i>Left: The overall negative trend.          Right: The explanation by Income Group.</i>
+</div>
 
-**The Bar Chart (The Explanation):**
-![Bar Chart](images/bar_chart.png)
+<br>
 
 * **Low Income Nations:** High renewable usage (~73%). This is not solar/wind, but **biomass** (wood, charcoal) used for survival.
 * **High Income Nations:** Lower average renewable usage (~15-18%), driven by industrialization and fossil fuel reliance.
